@@ -10,8 +10,8 @@ Time for a game… but first we'll need a deck of playing cards. Use `deck-o-car
 
 3. Call `deck_o_cards`, then print the following:
 
-  - **"The deck has {n} cards"**
-  -  **"The top card is the {value} of {suit}"**
+   `The deck has {n} cards`
+   `The top card is the {value} of {suit}`
 
 ## Bonus
 
