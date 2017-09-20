@@ -2,19 +2,16 @@
 
 Time for a game… but first we'll need a deck of playing cards. Use `deck-o-cards.js` as a starting point for this exercise.
 
-1. Make the function `deck_o_cards` assemble an array of cards using the provided *suits* and *values* arrays. Each card in the deck should be an object formatted as:  
-
-   `{suit: 'hearts', value: 'Ace'}`
-   
-   Hints: 
-      - Given an array of `suit` types and an array of `value` types, how you put them together?
-      - Research and consider implementing the `Fisher-Yates` shuffle to shuffle the cards.
+1. Make the function `deck_o_cards` assemble an array of cards using the provided *suits* and *values* arrays.
+    - Each card in the deck should be an object formatted as: `{suit: 'hearts', value: 'Ace'}`
+    - _Hint:_ Given an array of `suit` types and an array of `value` types, how you put them together?
 
 2. Make `deck_o_cards` return a shuffled array of cards.
+    - _Hint:_ Research and consider implementing the `Fisher-Yates` shuffle to shuffle the cards.
 
 3. Call `deck_o_cards`, then print the following:
 
-   `The deck has {n} cards`  
+   `The deck has {n} cards`
    
    `The top card is the {value} of {suit}`
 
