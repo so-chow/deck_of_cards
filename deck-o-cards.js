@@ -11,7 +11,10 @@ function deck_o_cards() {
   // Hint: use 2 for loops
   for(var s=0; s<value.length; s++){
     for(var n = 0; n<suits.length; n++){
-    var card = {value: values[s], suit: suits[n]};
+    var card = {
+      value: values[s],
+      suit: suits[n]
+    };
     cards.push(card);
     //TODO: find out how to push key and value into the cards array!!!!
     }
@@ -55,3 +58,5 @@ function shuffle(array) {
 
     return array;
 }
+
+deck_o_cards();
